@@ -1,0 +1,29 @@
+[options]
+; ====== Addons ======
+addons_path = /usr/lib/python3/dist-packages/odoo/addons,${ODOO_ADDONS_EXTRA}
+
+; ====== Database ======
+db_host = ${POSTGRES_HOST}
+db_port = ${POSTGRES_PORT}
+db_user = ${POSTGRES_USER}
+db_password = ${POSTGRES_PASSWORD}
+db_name = ${ODOO_DB_NAME}
+dbfilter = ${ODOO_DB_FILTER}
+
+; ====== Init & Demo ======
+init = ${ODOO_INIT_MODULES}
+without_demo = ${ODOO_WITHOUT_DEMO}
+admin_passwd = ${ODOO_ADMIN_PASSWORD}
+
+; ====== Network ======
+xmlrpc_port = ${ODOO_HTTP_PORT}
+longpolling_port = ${ODOO_LONGPOLL_PORT}
+
+; ====== Performance (dev: workers=0; prod: >0) ======
+workers = ${ODOO_WORKERS}
+limit_time_cpu = ${ODOO_LIMIT_TIME_CPU}
+limit_time_real = ${ODOO_LIMIT_TIME_REAL}
+
+; ====== Logs (montables si besoin) ======
+;log_level = info
+;logfile = /var/lib/odoo/odoo.log

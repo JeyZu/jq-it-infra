@@ -1,0 +1,15 @@
+# Required
+project_id   = "my-gcp-project"
+domain_name  = "odoo.example.com"
+
+# Optional
+region              = "europe-west1"
+app_name            = "odoo"
+mig_machine_type    = "e2-micro"
+db_instance_name    = "odoo-db"
+db_version          = "POSTGRES_15"
+db_tier             = "db-f1-micro"
+db_name             = "odoo"
+db_user             = "odoo_user"
+bucket_name_prefix  = "odoo-persistent-storage"
+

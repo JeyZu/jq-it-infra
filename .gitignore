@@ -1,0 +1,28 @@
+# General
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment files
+.env
+*.env
+**/.env
+!*.env.example
+
+# Terraform
+**/.terraform/*
+**/.terraform
+*.tfstate
+*.tfstate.*
+crash.log
+terraform.tfvars
+terraform.tfvars.json
+override.tf
+override.tf.json
+
+# Local build artifacts
+myplan
+
