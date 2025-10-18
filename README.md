@@ -37,3 +37,4 @@ Highlights:
 - Secrets handled via Secret Manager
 - Parameterized for easy reuse across projects
 
+For setting up this project on another machine (same GCP state), follow `docs/SETUP_ON_NEW_MACHINE.md`.
